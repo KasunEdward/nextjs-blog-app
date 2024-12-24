@@ -42,6 +42,10 @@ Thumbs.db
 # TypeScript cache
 *.tsbuildinfo
 
+
+# Next.js custom server
+/server/
+
 # npm or yarn lock files (if not relevant for your team)
 # Uncomment the below lines if you don't want lock files tracked
 # package-lock.json
