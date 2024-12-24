@@ -17,7 +17,7 @@ const config: Config = {
     },
   },
   plugins: [
-    plugin(function({ addBase, theme }) {
+    plugin(function({ addBase, theme }: { addBase: (styles: Record<string, any>) => void, theme: (path: string) => any }) {
       addBase({
         'h1': { fontSize: theme('fontSize.2xl') },
         'h2': { fontSize: theme('fontSize.xl') },
